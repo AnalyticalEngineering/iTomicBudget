@@ -14,6 +14,9 @@
 		12B7514B2B1924C600523986 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7514A2B1924C600523986 /* TransactionModel.swift */; };
 		12B7514E2B1926A800523986 /* ExtensionFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7514D2B1926A800523986 /* ExtensionFloat.swift */; };
 		12B751512B19271700523986 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B751502B19271700523986 /* HapticsManager.swift */; };
+		12B751542B1927B300523986 /* BudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B751532B1927B300523986 /* BudgetViewModel.swift */; };
+		12B751562B192AA600523986 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B751552B192AA600523986 /* TransactionViewModel.swift */; };
+		12B751582B19316700523986 /* DeafultBudgetCategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B751572B19316700523986 /* DeafultBudgetCategoriesModel.swift */; };
 		12BD94E12B1919DB008691F4 /* iTomicBudgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94E02B1919DB008691F4 /* iTomicBudgetApp.swift */; };
 		12BD94E32B1919DB008691F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94E22B1919DB008691F4 /* ContentView.swift */; };
 		12BD94E52B1919DC008691F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BD94E42B1919DC008691F4 /* Assets.xcassets */; };
@@ -50,6 +53,9 @@
 		12B7514A2B1924C600523986 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		12B7514D2B1926A800523986 /* ExtensionFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFloat.swift; sourceTree = "<group>"; };
 		12B751502B19271700523986 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		12B751532B1927B300523986 /* BudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewModel.swift; sourceTree = "<group>"; };
+		12B751552B192AA600523986 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		12B751572B19316700523986 /* DeafultBudgetCategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeafultBudgetCategoriesModel.swift; sourceTree = "<group>"; };
 		12BD94DD2B1919DB008691F4 /* iTomicBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTomicBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BD94E02B1919DB008691F4 /* iTomicBudgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTomicBudgetApp.swift; sourceTree = "<group>"; };
 		12BD94E22B1919DB008691F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +112,8 @@
 			children = (
 				12B751462B1921BD00523986 /* BudgetTypeModel.swift */,
 				12B751442B191FDD00523986 /* BudgetModel.swift */,
+				12B751532B1927B300523986 /* BudgetViewModel.swift */,
+				12B751572B19316700523986 /* DeafultBudgetCategoriesModel.swift */,
 			);
 			path = BudgetModels;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				12B7514A2B1924C600523986 /* TransactionModel.swift */,
+				12B751552B192AA600523986 /* TransactionViewModel.swift */,
 			);
 			path = TransactionModels;
 			sourceTree = "<group>";
@@ -351,7 +360,10 @@
 				12B751472B1921BD00523986 /* BudgetTypeModel.swift in Sources */,
 				12BD94E32B1919DB008691F4 /* ContentView.swift in Sources */,
 				12B7514E2B1926A800523986 /* ExtensionFloat.swift in Sources */,
+				12B751582B19316700523986 /* DeafultBudgetCategoriesModel.swift in Sources */,
+				12B751562B192AA600523986 /* TransactionViewModel.swift in Sources */,
 				12BD94E12B1919DB008691F4 /* iTomicBudgetApp.swift in Sources */,
+				12B751542B1927B300523986 /* BudgetViewModel.swift in Sources */,
 				12B751432B191D9800523986 /* IconPickerView.swift in Sources */,
 				12B7514B2B1924C600523986 /* TransactionModel.swift in Sources */,
 				12B751452B191FDD00523986 /* BudgetModel.swift in Sources */,
