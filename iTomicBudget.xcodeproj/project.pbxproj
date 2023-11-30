@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12BD94E12B1919DB008691F4 /* iTomicBudgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94E02B1919DB008691F4 /* iTomicBudgetApp.swift */; };
+		12BD94E32B1919DB008691F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94E22B1919DB008691F4 /* ContentView.swift */; };
+		12BD94E52B1919DC008691F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BD94E42B1919DC008691F4 /* Assets.xcassets */; };
+		12BD94E92B1919DC008691F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BD94E82B1919DC008691F4 /* Preview Assets.xcassets */; };
+		12BD94F32B1919DC008691F4 /* iTomicBudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94F22B1919DC008691F4 /* iTomicBudgetTests.swift */; };
+		12BD94FD2B1919DC008691F4 /* iTomicBudgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94FC2B1919DC008691F4 /* iTomicBudgetUITests.swift */; };
+		12BD94FF2B1919DC008691F4 /* iTomicBudgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94FE2B1919DC008691F4 /* iTomicBudgetUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12BD94EF2B1919DC008691F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12BD94D52B1919DB008691F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12BD94DC2B1919DB008691F4;
+			remoteInfo = iTomicBudget;
+		};
+		12BD94F92B1919DC008691F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12BD94D52B1919DB008691F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12BD94DC2B1919DB008691F4;
+			remoteInfo = iTomicBudget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12BD94DD2B1919DB008691F4 /* iTomicBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTomicBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BD94E02B1919DB008691F4 /* iTomicBudgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTomicBudgetApp.swift; sourceTree = "<group>"; };
+		12BD94E22B1919DB008691F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		12BD94E42B1919DC008691F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12BD94E62B1919DC008691F4 /* iTomicBudget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iTomicBudget.entitlements; sourceTree = "<group>"; };
+		12BD94E82B1919DC008691F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12BD94EE2B1919DC008691F4 /* iTomicBudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTomicBudgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BD94F22B1919DC008691F4 /* iTomicBudgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTomicBudgetTests.swift; sourceTree = "<group>"; };
+		12BD94F82B1919DC008691F4 /* iTomicBudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTomicBudgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BD94FC2B1919DC008691F4 /* iTomicBudgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTomicBudgetUITests.swift; sourceTree = "<group>"; };
+		12BD94FE2B1919DC008691F4 /* iTomicBudgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTomicBudgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12BD94DA2B1919DB008691F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BD94EB2B1919DC008691F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BD94F52B1919DC008691F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12BD94D42B1919DB008691F4 = {
+			isa = PBXGroup;
+			children = (
+				12BD94DF2B1919DB008691F4 /* iTomicBudget */,
+				12BD94F12B1919DC008691F4 /* iTomicBudgetTests */,
+				12BD94FB2B1919DC008691F4 /* iTomicBudgetUITests */,
+				12BD94DE2B1919DB008691F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12BD94DE2B1919DB008691F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12BD94DD2B1919DB008691F4 /* iTomicBudget.app */,
+				12BD94EE2B1919DC008691F4 /* iTomicBudgetTests.xctest */,
+				12BD94F82B1919DC008691F4 /* iTomicBudgetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12BD94DF2B1919DB008691F4 /* iTomicBudget */ = {
+			isa = PBXGroup;
+			children = (
+				12BD94E02B1919DB008691F4 /* iTomicBudgetApp.swift */,
+				12BD94E22B1919DB008691F4 /* ContentView.swift */,
+				12BD94E42B1919DC008691F4 /* Assets.xcassets */,
+				12BD94E62B1919DC008691F4 /* iTomicBudget.entitlements */,
+				12BD94E72B1919DC008691F4 /* Preview Content */,
+			);
+			path = iTomicBudget;
+			sourceTree = "<group>";
+		};
+		12BD94E72B1919DC008691F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				12BD94E82B1919DC008691F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12BD94F12B1919DC008691F4 /* iTomicBudgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				12BD94F22B1919DC008691F4 /* iTomicBudgetTests.swift */,
+			);
+			path = iTomicBudgetTests;
+			sourceTree = "<group>";
+		};
+		12BD94FB2B1919DC008691F4 /* iTomicBudgetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12BD94FC2B1919DC008691F4 /* iTomicBudgetUITests.swift */,
+				12BD94FE2B1919DC008691F4 /* iTomicBudgetUITestsLaunchTests.swift */,
+			);
+			path = iTomicBudgetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12BD94DC2B1919DB008691F4 /* iTomicBudget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12BD95022B1919DC008691F4 /* Build configuration list for PBXNativeTarget "iTomicBudget" */;
+			buildPhases = (
+				12BD94D92B1919DB008691F4 /* Sources */,
+				12BD94DA2B1919DB008691F4 /* Frameworks */,
+				12BD94DB2B1919DB008691F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTomicBudget;
+			productName = iTomicBudget;
+			productReference = 12BD94DD2B1919DB008691F4 /* iTomicBudget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12BD94ED2B1919DC008691F4 /* iTomicBudgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12BD95052B1919DC008691F4 /* Build configuration list for PBXNativeTarget "iTomicBudgetTests" */;
+			buildPhases = (
+				12BD94EA2B1919DC008691F4 /* Sources */,
+				12BD94EB2B1919DC008691F4 /* Frameworks */,
+				12BD94EC2B1919DC008691F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12BD94F02B1919DC008691F4 /* PBXTargetDependency */,
+			);
+			name = iTomicBudgetTests;
+			productName = iTomicBudgetTests;
+			productReference = 12BD94EE2B1919DC008691F4 /* iTomicBudgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12BD94F72B1919DC008691F4 /* iTomicBudgetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12BD95082B1919DC008691F4 /* Build configuration list for PBXNativeTarget "iTomicBudgetUITests" */;
+			buildPhases = (
+				12BD94F42B1919DC008691F4 /* Sources */,
+				12BD94F52B1919DC008691F4 /* Frameworks */,
+				12BD94F62B1919DC008691F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12BD94FA2B1919DC008691F4 /* PBXTargetDependency */,
+			);
+			name = iTomicBudgetUITests;
+			productName = iTomicBudgetUITests;
+			productReference = 12BD94F82B1919DC008691F4 /* iTomicBudgetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12BD94D52B1919DB008691F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					12BD94DC2B1919DB008691F4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					12BD94ED2B1919DC008691F4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 12BD94DC2B1919DB008691F4;
+					};
+					12BD94F72B1919DC008691F4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 12BD94DC2B1919DB008691F4;
+					};
+				};
+			};
+			buildConfigurationList = 12BD94D82B1919DB008691F4 /* Build configuration list for PBXProject "iTomicBudget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12BD94D42B1919DB008691F4;
+			productRefGroup = 12BD94DE2B1919DB008691F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12BD94DC2B1919DB008691F4 /* iTomicBudget */,
+				12BD94ED2B1919DC008691F4 /* iTomicBudgetTests */,
+				12BD94F72B1919DC008691F4 /* iTomicBudgetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12BD94DB2B1919DB008691F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BD94E92B1919DC008691F4 /* Preview Assets.xcassets in Resources */,
+				12BD94E52B1919DC008691F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BD94EC2B1919DC008691F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BD94F62B1919DC008691F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12BD94D92B1919DB008691F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BD94E32B1919DB008691F4 /* ContentView.swift in Sources */,
+				12BD94E12B1919DB008691F4 /* iTomicBudgetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BD94EA2B1919DC008691F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BD94F32B1919DC008691F4 /* iTomicBudgetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BD94F42B1919DC008691F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BD94FF2B1919DC008691F4 /* iTomicBudgetUITestsLaunchTests.swift in Sources */,
+				12BD94FD2B1919DC008691F4 /* iTomicBudgetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12BD94F02B1919DC008691F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12BD94DC2B1919DB008691F4 /* iTomicBudget */;
+			targetProxy = 12BD94EF2B1919DC008691F4 /* PBXContainerItemProxy */;
+		};
+		12BD94FA2B1919DC008691F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12BD94DC2B1919DB008691F4 /* iTomicBudget */;
+			targetProxy = 12BD94F92B1919DC008691F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12BD95002B1919DC008691F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12BD95012B1919DC008691F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		12BD95032B1919DC008691F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iTomicBudget/iTomicBudget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iTomicBudget/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.iTomicBudget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12BD95042B1919DC008691F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iTomicBudget/iTomicBudget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iTomicBudget/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.iTomicBudget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12BD95062B1919DC008691F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.iTomicBudgetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTomicBudget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iTomicBudget";
+			};
+			name = Debug;
+		};
+		12BD95072B1919DC008691F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.iTomicBudgetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTomicBudget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iTomicBudget";
+			};
+			name = Release;
+		};
+		12BD95092B1919DC008691F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.iTomicBudgetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iTomicBudget;
+			};
+			name = Debug;
+		};
+		12BD950A2B1919DC008691F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.iTomicBudgetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iTomicBudget;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12BD94D82B1919DB008691F4 /* Build configuration list for PBXProject "iTomicBudget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BD95002B1919DC008691F4 /* Debug */,
+				12BD95012B1919DC008691F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12BD95022B1919DC008691F4 /* Build configuration list for PBXNativeTarget "iTomicBudget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BD95032B1919DC008691F4 /* Debug */,
+				12BD95042B1919DC008691F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12BD95052B1919DC008691F4 /* Build configuration list for PBXNativeTarget "iTomicBudgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BD95062B1919DC008691F4 /* Debug */,
+				12BD95072B1919DC008691F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12BD95082B1919DC008691F4 /* Build configuration list for PBXNativeTarget "iTomicBudgetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12BD95092B1919DC008691F4 /* Debug */,
+				12BD950A2B1919DC008691F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12BD94D52B1919DB008691F4 /* Project object */;
+}
