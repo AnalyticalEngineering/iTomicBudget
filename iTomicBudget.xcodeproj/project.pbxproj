@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12B751412B191C6400523986 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B751402B191C6400523986 /* Color.swift */; };
+		12B751432B191D9800523986 /* IconPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B751422B191D9800523986 /* IconPickerView.swift */; };
+		12B751452B191FDD00523986 /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B751442B191FDD00523986 /* BudgetModel.swift */; };
+		12B751472B1921BD00523986 /* BudgetTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B751462B1921BD00523986 /* BudgetTypeModel.swift */; };
+		12B7514B2B1924C600523986 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7514A2B1924C600523986 /* TransactionModel.swift */; };
+		12B7514E2B1926A800523986 /* ExtensionFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7514D2B1926A800523986 /* ExtensionFloat.swift */; };
+		12B751512B19271700523986 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B751502B19271700523986 /* HapticsManager.swift */; };
 		12BD94E12B1919DB008691F4 /* iTomicBudgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94E02B1919DB008691F4 /* iTomicBudgetApp.swift */; };
 		12BD94E32B1919DB008691F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94E22B1919DB008691F4 /* ContentView.swift */; };
 		12BD94E52B1919DC008691F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BD94E42B1919DC008691F4 /* Assets.xcassets */; };
@@ -14,6 +21,8 @@
 		12BD94F32B1919DC008691F4 /* iTomicBudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94F22B1919DC008691F4 /* iTomicBudgetTests.swift */; };
 		12BD94FD2B1919DC008691F4 /* iTomicBudgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94FC2B1919DC008691F4 /* iTomicBudgetUITests.swift */; };
 		12BD94FF2B1919DC008691F4 /* iTomicBudgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94FE2B1919DC008691F4 /* iTomicBudgetUITestsLaunchTests.swift */; };
+		12BD950F2B191A9B008691F4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 12BD950E2B191A9B008691F4 /* Realm */; };
+		12BD95112B191A9B008691F4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 12BD95102B191A9B008691F4 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12B751402B191C6400523986 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		12B751422B191D9800523986 /* IconPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPickerView.swift; sourceTree = "<group>"; };
+		12B751442B191FDD00523986 /* BudgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetModel.swift; sourceTree = "<group>"; };
+		12B751462B1921BD00523986 /* BudgetTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTypeModel.swift; sourceTree = "<group>"; };
+		12B7514A2B1924C600523986 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		12B7514D2B1926A800523986 /* ExtensionFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFloat.swift; sourceTree = "<group>"; };
+		12B751502B19271700523986 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		12BD94DD2B1919DB008691F4 /* iTomicBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTomicBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BD94E02B1919DB008691F4 /* iTomicBudgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTomicBudgetApp.swift; sourceTree = "<group>"; };
 		12BD94E22B1919DB008691F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12BD95112B191A9B008691F4 /* RealmSwift in Frameworks */,
+				12BD950F2B191A9B008691F4 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12B7513F2B191C4400523986 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				12B7514F2B19270600523986 /* Managers */,
+				12B7514C2B19268B00523986 /* Extensions */,
+				12B751402B191C6400523986 /* Color.swift */,
+				12B751422B191D9800523986 /* IconPickerView.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		12B751482B19249200523986 /* BudgetModels */ = {
+			isa = PBXGroup;
+			children = (
+				12B751462B1921BD00523986 /* BudgetTypeModel.swift */,
+				12B751442B191FDD00523986 /* BudgetModel.swift */,
+			);
+			path = BudgetModels;
+			sourceTree = "<group>";
+		};
+		12B751492B1924A600523986 /* TransactionModels */ = {
+			isa = PBXGroup;
+			children = (
+				12B7514A2B1924C600523986 /* TransactionModel.swift */,
+			);
+			path = TransactionModels;
+			sourceTree = "<group>";
+		};
+		12B7514C2B19268B00523986 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12B7514D2B1926A800523986 /* ExtensionFloat.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		12B7514F2B19270600523986 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				12B751502B19271700523986 /* HapticsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		12BD94D42B1919DB008691F4 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +157,10 @@
 		12BD94DF2B1919DB008691F4 /* iTomicBudget */ = {
 			isa = PBXGroup;
 			children = (
+				12B7513F2B191C4400523986 /* SupportFiles */,
 				12BD94E02B1919DB008691F4 /* iTomicBudgetApp.swift */,
-				12BD94E22B1919DB008691F4 /* ContentView.swift */,
+				12BD950C2B191A3E008691F4 /* Views */,
+				12BD950B2B191A34008691F4 /* Models */,
 				12BD94E42B1919DC008691F4 /* Assets.xcassets */,
 				12BD94E62B1919DC008691F4 /* iTomicBudget.entitlements */,
 				12BD94E72B1919DC008691F4 /* Preview Content */,
@@ -129,6 +193,23 @@
 			path = iTomicBudgetUITests;
 			sourceTree = "<group>";
 		};
+		12BD950B2B191A34008691F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12B751492B1924A600523986 /* TransactionModels */,
+				12B751482B19249200523986 /* BudgetModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12BD950C2B191A3E008691F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12BD94E22B1919DB008691F4 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +226,10 @@
 			dependencies = (
 			);
 			name = iTomicBudget;
+			packageProductDependencies = (
+				12BD950E2B191A9B008691F4 /* Realm */,
+				12BD95102B191A9B008691F4 /* RealmSwift */,
+			);
 			productName = iTomicBudget;
 			productReference = 12BD94DD2B1919DB008691F4 /* iTomicBudget.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +302,9 @@
 				Base,
 			);
 			mainGroup = 12BD94D42B1919DB008691F4;
+			packageReferences = (
+				12BD950D2B191A9B008691F4 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 12BD94DE2B1919DB008691F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +347,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B751512B19271700523986 /* HapticsManager.swift in Sources */,
+				12B751472B1921BD00523986 /* BudgetTypeModel.swift in Sources */,
 				12BD94E32B1919DB008691F4 /* ContentView.swift in Sources */,
+				12B7514E2B1926A800523986 /* ExtensionFloat.swift in Sources */,
 				12BD94E12B1919DB008691F4 /* iTomicBudgetApp.swift in Sources */,
+				12B751432B191D9800523986 /* IconPickerView.swift in Sources */,
+				12B7514B2B1924C600523986 /* TransactionModel.swift in Sources */,
+				12B751452B191FDD00523986 /* BudgetModel.swift in Sources */,
+				12B751412B191C6400523986 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +712,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12BD950D2B191A9B008691F4 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12BD950E2B191A9B008691F4 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12BD950D2B191A9B008691F4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		12BD95102B191A9B008691F4 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12BD950D2B191A9B008691F4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 12BD94D52B1919DB008691F4 /* Project object */;
 }
