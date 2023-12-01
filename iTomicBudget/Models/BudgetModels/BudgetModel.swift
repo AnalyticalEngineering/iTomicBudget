@@ -14,6 +14,7 @@ class Budget: Object, ObjectKeyIdentifiable {
     @Persisted var name: String = ""
     @Persisted var icon: String = ""
     @Persisted var color: String = ""
+    @Persisted var budgetedAmount: Float = 0
     @Persisted var type: BudgetType = .expense
     @Persisted var transactions: List<TransactionItem> = List<TransactionItem>()
     
@@ -37,5 +38,6 @@ class Budget: Object, ObjectKeyIdentifiable {
         }
         return totalAmount
     }
-}
-
+    
+        }
+    

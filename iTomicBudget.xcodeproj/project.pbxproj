@@ -16,8 +16,7 @@
 		12B751512B19271700523986 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B751502B19271700523986 /* HapticsManager.swift */; };
 		12B751542B1927B300523986 /* BudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B751532B1927B300523986 /* BudgetViewModel.swift */; };
 		12B751562B192AA600523986 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B751552B192AA600523986 /* TransactionViewModel.swift */; };
-		12B751582B19316700523986 /* DeafultBudgetCategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B751572B19316700523986 /* DeafultBudgetCategoriesModel.swift */; };
-		12BD94E12B1919DB008691F4 /* iTomicBudgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94E02B1919DB008691F4 /* iTomicBudgetApp.swift */; };
+		12BD94E12B1919DB008691F4 /* iTomicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94E02B1919DB008691F4 /* iTomicApp.swift */; };
 		12BD94E32B1919DB008691F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94E22B1919DB008691F4 /* ContentView.swift */; };
 		12BD94E52B1919DC008691F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BD94E42B1919DC008691F4 /* Assets.xcassets */; };
 		12BD94E92B1919DC008691F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12BD94E82B1919DC008691F4 /* Preview Assets.xcassets */; };
@@ -26,6 +25,14 @@
 		12BD94FF2B1919DC008691F4 /* iTomicBudgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BD94FE2B1919DC008691F4 /* iTomicBudgetUITestsLaunchTests.swift */; };
 		12BD950F2B191A9B008691F4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 12BD950E2B191A9B008691F4 /* Realm */; };
 		12BD95112B191A9B008691F4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 12BD95102B191A9B008691F4 /* RealmSwift */; };
+		12E0949C2B19382900126DFB /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E0949B2B19382900126DFB /* HomeScreen.swift */; };
+		12E0949E2B19389700126DFB /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E0949D2B19389700126DFB /* AppViewModel.swift */; };
+		12E094A02B19423300126DFB /* BudgetBalanceChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E0949F2B19423300126DFB /* BudgetBalanceChart.swift */; };
+		12E094A22B19A73F00126DFB /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E094A12B19A73F00126DFB /* EmptyView.swift */; };
+		12E094A42B19A79100126DFB /* BudgetItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E094A32B19A79100126DFB /* BudgetItemView.swift */; };
+		12E094A62B19A92700126DFB /* TransactionBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E094A52B19A92700126DFB /* TransactionBudgetView.swift */; };
+		12E094A82B19A99100126DFB /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E094A72B19A99100126DFB /* CurrencyModel.swift */; };
+		12E094AA2B19AEFE00126DFB /* EditTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E094A92B19AEFE00126DFB /* EditTransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +62,8 @@
 		12B751502B19271700523986 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		12B751532B1927B300523986 /* BudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewModel.swift; sourceTree = "<group>"; };
 		12B751552B192AA600523986 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
-		12B751572B19316700523986 /* DeafultBudgetCategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeafultBudgetCategoriesModel.swift; sourceTree = "<group>"; };
 		12BD94DD2B1919DB008691F4 /* iTomicBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTomicBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		12BD94E02B1919DB008691F4 /* iTomicBudgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTomicBudgetApp.swift; sourceTree = "<group>"; };
+		12BD94E02B1919DB008691F4 /* iTomicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTomicApp.swift; sourceTree = "<group>"; };
 		12BD94E22B1919DB008691F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12BD94E42B1919DC008691F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12BD94E62B1919DC008691F4 /* iTomicBudget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iTomicBudget.entitlements; sourceTree = "<group>"; };
@@ -67,6 +73,14 @@
 		12BD94F82B1919DC008691F4 /* iTomicBudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTomicBudgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BD94FC2B1919DC008691F4 /* iTomicBudgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTomicBudgetUITests.swift; sourceTree = "<group>"; };
 		12BD94FE2B1919DC008691F4 /* iTomicBudgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTomicBudgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12E0949B2B19382900126DFB /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		12E0949D2B19389700126DFB /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		12E0949F2B19423300126DFB /* BudgetBalanceChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetBalanceChart.swift; sourceTree = "<group>"; };
+		12E094A12B19A73F00126DFB /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		12E094A32B19A79100126DFB /* BudgetItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetItemView.swift; sourceTree = "<group>"; };
+		12E094A52B19A92700126DFB /* TransactionBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBudgetView.swift; sourceTree = "<group>"; };
+		12E094A72B19A99100126DFB /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		12E094A92B19AEFE00126DFB /* EditTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +127,6 @@
 				12B751462B1921BD00523986 /* BudgetTypeModel.swift */,
 				12B751442B191FDD00523986 /* BudgetModel.swift */,
 				12B751532B1927B300523986 /* BudgetViewModel.swift */,
-				12B751572B19316700523986 /* DeafultBudgetCategoriesModel.swift */,
 			);
 			path = BudgetModels;
 			sourceTree = "<group>";
@@ -167,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				12B7513F2B191C4400523986 /* SupportFiles */,
-				12BD94E02B1919DB008691F4 /* iTomicBudgetApp.swift */,
 				12BD950C2B191A3E008691F4 /* Views */,
 				12BD950B2B191A34008691F4 /* Models */,
 				12BD94E42B1919DC008691F4 /* Assets.xcassets */,
@@ -205,8 +217,11 @@
 		12BD950B2B191A34008691F4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				12BD94E02B1919DB008691F4 /* iTomicApp.swift */,
 				12B751492B1924A600523986 /* TransactionModels */,
 				12B751482B19249200523986 /* BudgetModels */,
+				12E0949D2B19389700126DFB /* AppViewModel.swift */,
+				12E094A72B19A99100126DFB /* CurrencyModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -214,7 +229,13 @@
 		12BD950C2B191A3E008691F4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				12E0949B2B19382900126DFB /* HomeScreen.swift */,
 				12BD94E22B1919DB008691F4 /* ContentView.swift */,
+				12E0949F2B19423300126DFB /* BudgetBalanceChart.swift */,
+				12E094A12B19A73F00126DFB /* EmptyView.swift */,
+				12E094A32B19A79100126DFB /* BudgetItemView.swift */,
+				12E094A52B19A92700126DFB /* TransactionBudgetView.swift */,
+				12E094A92B19AEFE00126DFB /* EditTransactionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -357,15 +378,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B751512B19271700523986 /* HapticsManager.swift in Sources */,
+				12E094A42B19A79100126DFB /* BudgetItemView.swift in Sources */,
+				12E094A22B19A73F00126DFB /* EmptyView.swift in Sources */,
+				12E094AA2B19AEFE00126DFB /* EditTransactionView.swift in Sources */,
 				12B751472B1921BD00523986 /* BudgetTypeModel.swift in Sources */,
+				12E094A02B19423300126DFB /* BudgetBalanceChart.swift in Sources */,
+				12E0949C2B19382900126DFB /* HomeScreen.swift in Sources */,
+				12E0949E2B19389700126DFB /* AppViewModel.swift in Sources */,
 				12BD94E32B1919DB008691F4 /* ContentView.swift in Sources */,
 				12B7514E2B1926A800523986 /* ExtensionFloat.swift in Sources */,
-				12B751582B19316700523986 /* DeafultBudgetCategoriesModel.swift in Sources */,
 				12B751562B192AA600523986 /* TransactionViewModel.swift in Sources */,
-				12BD94E12B1919DB008691F4 /* iTomicBudgetApp.swift in Sources */,
+				12BD94E12B1919DB008691F4 /* iTomicApp.swift in Sources */,
 				12B751542B1927B300523986 /* BudgetViewModel.swift in Sources */,
 				12B751432B191D9800523986 /* IconPickerView.swift in Sources */,
 				12B7514B2B1924C600523986 /* TransactionModel.swift in Sources */,
+				12E094A82B19A99100126DFB /* CurrencyModel.swift in Sources */,
+				12E094A62B19A92700126DFB /* TransactionBudgetView.swift in Sources */,
 				12B751452B191FDD00523986 /* BudgetModel.swift in Sources */,
 				12B751412B191C6400523986 /* Color.swift in Sources */,
 			);

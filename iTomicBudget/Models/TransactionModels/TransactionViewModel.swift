@@ -158,7 +158,7 @@ final class TransactionViewModel: ObservableObject {
         return groupedTransaction
     }
     
-    // MARK: HomeView
+    // MARK: HomeScreen
     // Считает расход
     func totalExpenses() -> Float {
         var expenses: Float = 0

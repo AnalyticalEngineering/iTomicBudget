@@ -25,23 +25,23 @@ final class BudgetViewModel: ObservableObject {
         budgets = Array(BudgetsResult)
     }
     
-    // Добавления категорий по умолчанию
-    func createDefaultBudgetCategories() {
-        guard let realm = try? Realm() else {
-            print("Ошибка: Не удалось создать категории по умолчанию Realm")
-            return
-        }
-        
-        let defaultBudgetCategory = defaultBudgetCategoriesModel
-        
-        try! realm.write {
-            for budget in defaultBudgetCategory {
-                realm.add(budget)
-            }
-        }
-    }
+ 
+//    func createDefaultBudgetCategories() {
+//        guard let realm = try? Realm() else {
+//            print("Ошибка: Не удалось создать категории по умолчанию Realm")
+//            return
+//        }
+//        
+//   //     let defaultBudgetCategory = defaultBudgetCategoriesModel
+//        
+//        try! realm.write {
+//            for budget in defaultBudgetCategory {
+//                realm.add(budget)
+//            }
+//        }
+//    }
     
-    // Метод сохранения категории
+   
     func saveBudget(name: String, icon: String, color: String, type: BudgetType) {
         guard let realm = try? Realm() else {
             print("Ошибка: Не удалось создать экземпляр Realm")
@@ -56,36 +56,36 @@ final class BudgetViewModel: ObservableObject {
             try realm.write {
                 realm.add(newBudget)
             }
-            // отладочное сообщение
+           
             return print("Категория сохранена: \(newBudget)")
         } catch {
-            // отладочное сообщение
+          
             return print("Ошибка сохранения категории: \(error)")
         }
     }
     
-    // Метод для удаления категории
+   
     func deleteBudget(id: ObjectId) {
         do {
             let realm = try Realm()
             if let budget = realm.object(ofType: Budget.self, forPrimaryKey: id) {
                 try realm.write {
-                    // Удаление всех транзакций, связанных с категорией
+                    
                     for transaction in budget.transactions {
                         realm.delete(transaction)
                     }
                     
-                    // Удаление категории
+                    
                     realm.delete(budget)
                 }
                 loadData()
             }
         } catch {
-            print("Error deleting category: \(error)")
+            print("Error deleting budget: \(error)")
         }
     }
     
-    // MARK: HomeView
+    // MARK: HomeScreen
     func filteredBudgets(budgets: [Budget], type: BudgetType) -> [Budget] {
         var result: [Budget] = []
         for budget in budgets {
