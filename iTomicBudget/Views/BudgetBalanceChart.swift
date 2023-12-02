@@ -39,7 +39,7 @@ struct BudgetBalanceChart: View {
             }
             .padding(10)
             .padding(.vertical, 5)
-            .background(Color(Colors.colorGray))
+            .background(Color(Colors.colorBalanceBG))
             .cornerRadius(10)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
         }

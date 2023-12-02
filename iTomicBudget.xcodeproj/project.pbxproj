@@ -33,6 +33,9 @@
 		12E094A62B19A92700126DFB /* TransactionBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E094A52B19A92700126DFB /* TransactionBudgetView.swift */; };
 		12E094A82B19A99100126DFB /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E094A72B19A99100126DFB /* CurrencyModel.swift */; };
 		12E094AA2B19AEFE00126DFB /* EditTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E094A92B19AEFE00126DFB /* EditTransactionView.swift */; };
+		12E094AC2B1A454B00126DFB /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E094AB2B1A454B00126DFB /* AddTransactionView.swift */; };
+		12E094AE2B1A458700126DFB /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E094AD2B1A458700126DFB /* SideMenuView.swift */; };
+		12E094B02B1A47D100126DFB /* AddBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E094AF2B1A47D100126DFB /* AddBudgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +84,9 @@
 		12E094A52B19A92700126DFB /* TransactionBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBudgetView.swift; sourceTree = "<group>"; };
 		12E094A72B19A99100126DFB /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
 		12E094A92B19AEFE00126DFB /* EditTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTransactionView.swift; sourceTree = "<group>"; };
+		12E094AB2B1A454B00126DFB /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		12E094AD2B1A458700126DFB /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		12E094AF2B1A47D100126DFB /* AddBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +242,9 @@
 				12E094A32B19A79100126DFB /* BudgetItemView.swift */,
 				12E094A52B19A92700126DFB /* TransactionBudgetView.swift */,
 				12E094A92B19AEFE00126DFB /* EditTransactionView.swift */,
+				12E094AB2B1A454B00126DFB /* AddTransactionView.swift */,
+				12E094AD2B1A458700126DFB /* SideMenuView.swift */,
+				12E094AF2B1A47D100126DFB /* AddBudgetView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -386,14 +395,17 @@
 				12E0949C2B19382900126DFB /* HomeScreen.swift in Sources */,
 				12E0949E2B19389700126DFB /* AppViewModel.swift in Sources */,
 				12BD94E32B1919DB008691F4 /* ContentView.swift in Sources */,
+				12E094AC2B1A454B00126DFB /* AddTransactionView.swift in Sources */,
 				12B7514E2B1926A800523986 /* ExtensionFloat.swift in Sources */,
 				12B751562B192AA600523986 /* TransactionViewModel.swift in Sources */,
 				12BD94E12B1919DB008691F4 /* iTomicApp.swift in Sources */,
 				12B751542B1927B300523986 /* BudgetViewModel.swift in Sources */,
 				12B751432B191D9800523986 /* IconPickerView.swift in Sources */,
+				12E094AE2B1A458700126DFB /* SideMenuView.swift in Sources */,
 				12B7514B2B1924C600523986 /* TransactionModel.swift in Sources */,
 				12E094A82B19A99100126DFB /* CurrencyModel.swift in Sources */,
 				12E094A62B19A92700126DFB /* TransactionBudgetView.swift in Sources */,
+				12E094B02B1A47D100126DFB /* AddBudgetView.swift in Sources */,
 				12B751452B191FDD00523986 /* BudgetModel.swift in Sources */,
 				12B751412B191C6400523986 /* Color.swift in Sources */,
 			);
